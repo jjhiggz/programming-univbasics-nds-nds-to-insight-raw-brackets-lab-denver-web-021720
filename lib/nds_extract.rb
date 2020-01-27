@@ -9,7 +9,6 @@ nds = directors_database
 #pp nds
 names= []#will contain the name of the directors
 mtotals = []#will contain the movie total per director
-totals
 aod=nds.length #amount of directors
 puts aod
 i=0
