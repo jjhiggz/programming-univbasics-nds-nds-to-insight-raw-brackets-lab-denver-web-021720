@@ -18,7 +18,7 @@ while i<aod do
   t=0
   j=0
   while j<aom do
-    t=t+nds[i][:movies][j]
+    t=t+nds[i][:movies][j][:worldwide_gross]
   j=j+1
   end
   mtotals[i]=t
