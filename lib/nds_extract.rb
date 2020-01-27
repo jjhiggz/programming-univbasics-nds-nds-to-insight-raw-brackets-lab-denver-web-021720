@@ -30,6 +30,7 @@ end
 
 puts names
 puts mtotals
+puts string
 
 
 
