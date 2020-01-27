@@ -2,7 +2,12 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pp'
 nds = directors_database
-pp nds
+#pp nds
+a= {}
+aod=nds.length
+puts aod
+
+while
 
 
 def directors_totals(nds)
@@ -11,6 +16,7 @@ def directors_totals(nds)
   #
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
+
   result = {
   }
   #
