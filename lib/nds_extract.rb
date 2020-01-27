@@ -11,9 +11,9 @@ while i<aod do
   name[i]=nds[i][:name]
   i+=1
 end
-  
+
 end
-  
+
 end
 
 #while
