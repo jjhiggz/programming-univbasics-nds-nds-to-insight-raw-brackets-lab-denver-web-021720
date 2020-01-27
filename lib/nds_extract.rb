@@ -43,8 +43,30 @@ def directors_totals(nds)
   #
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
+  nds = directors_database
+  #pp nds
+  names= []#will contain the name of the directors
+  mtotals = []#will contain the movie total per director
+  aod=nds.length #amount of directors
+  puts aod
+  i=0
+  result ={}
+  string = ''
+  while i<aod do
+    names[i]=nds[i][:name]
+    aom=nds[i][:movies].length
+    t=0
+    j=0
+    while j<aom do
+      t=t+nds[i][:movies][j][:worldwide_gross]
+    j=j+1
+    end
+    mtotals[i]=t
+  string = string + "#{names[i]}s => #{mtotals[i]},\n"
+    i+=1
+  end
 
-  result = {
+  result = {string
   }
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
