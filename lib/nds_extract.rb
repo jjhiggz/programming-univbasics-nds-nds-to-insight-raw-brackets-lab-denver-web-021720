@@ -24,7 +24,7 @@ while i<aod do
   j=j+1
   end
   mtotals[i]=t
-string = string + "#{names[i]}s=>#{mtotals[i]},\n"
+string = string + "#{names[i]}s => #{mtotals[i]},\n"
   i+=1
 end
 
