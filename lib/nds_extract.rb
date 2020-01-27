@@ -12,6 +12,8 @@ mtotals = []#will contain the movie total per director
 aod=nds.length #amount of directors
 puts aod
 i=0
+result ={}
+string = ''
 while i<aod do
   names[i]=nds[i][:name]
   aom=nds[i][:movies].length
@@ -22,8 +24,10 @@ while i<aod do
   j=j+1
   end
   mtotals[i]=t
+string = '${string}s=>${names[i]},\n'
   i+=1
 end
+
 puts names
 puts mtotals
 
