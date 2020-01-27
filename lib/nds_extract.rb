@@ -26,6 +26,7 @@ while i<aod do
   i+=1
 end
 puts names
+puts mtotals
 
 
 
