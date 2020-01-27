@@ -31,6 +31,7 @@ result = {string}
 puts names
 puts mtotals
 puts string
+puts result
 
 
 
