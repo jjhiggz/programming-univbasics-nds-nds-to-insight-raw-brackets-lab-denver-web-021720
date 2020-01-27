@@ -3,9 +3,18 @@ require 'directors_database'
 require 'pp'
 nds = directors_database
 #pp nds
-a= {}
-aod=nds.length
+name= []
+aod=nds.length #amount of directors
 puts aod
+i=0
+while i<aod do
+  name[i]=nds[i][:name]
+  i+=1
+end
+  
+end
+  
+end
 
 #while
 
